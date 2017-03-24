@@ -1,0 +1,29 @@
+html,body{
+    overflow-y:hidden;
+     overflow-x:hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0 0;
+    margin: 0 0;
+}
+.mytext{
+	
+	position: absolute;top: 100px;
+    left: 20px; width: 200px; height: 50px; border: 1px solid blue; border-radius: 0; line-height: 50px; font-size: 25px;
+}
+
+.out-div{
+    width:100%; height:100%; border:1px solid red; position:fixed; overflow-y:hidden;
+     overflow-x:hidden;" padding:0 0 ;
+}
+#test_div {
+   
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#test_div2{
+     position: absolute;
+    left: 0;
+    top: 20px;
+}
